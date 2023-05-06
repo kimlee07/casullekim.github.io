@@ -3,7 +3,7 @@
 
 .front-page {
     height: auto;
-    margin: 100px;
+    margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -38,7 +38,7 @@
 
 .name {
     font-size: 100px;
-    color: rgb(35, 210, 233);
+    color: rgba(0, 157, 248, 0.801);
     text-align: left;
     font-family:Times New Roman;
     margin-bottom: 0px;
