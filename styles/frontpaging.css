@@ -3,7 +3,7 @@
 
 .front-page {
     height: auto;
-    margin: 100px;
+    margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
