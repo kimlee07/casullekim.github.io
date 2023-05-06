@@ -79,29 +79,27 @@
     <main>
       <div class="background_cover"></div>
       <div
-        class="md:px-20 p-5 lg:px-5"
+        class="sm:px-0 p-5 lg:px-5"
         data-v-63aba18c
         style="max-width: 1280px; margin: auto"
       >
         <div class="container">
           <div class="row">
             <div class="col">
-              <div class="front-page">
-                <div class="front-text">
-                  <h1 class="animate__animated animate__slideInLeft">
-                    <div class="name">KIMLEE</div>
-                  </h1>
+              <div class="front-text">
+                <h1 class="animate__animated animate__slideInLeft">
+                  <div class="name">KIMLEE</div>
+                </h1>
 
-                  <h2 class="animate__animated animate__slideInLeft">
-                    <div class="name1">PAUL ILOJE CASULLA</div>
-                  </h2>
+                <h2 class="animate__animated animate__slideInLeft">
+                  <div class="name1">PAUL ILOJE CASULLA</div>
+                </h2>
 
-                  <h2 class="animate__animated animate__slideInLeft">
-                    <div class="graduated">
-                      Graduated in Bachelor of Science in Computer Engineering
-                    </div>
-                  </h2>
-                </div>
+                <h2 class="animate__animated animate__slideInLeft">
+                  <div class="graduated">
+                    Graduated in Bachelor of Science in Computer Engineering
+                  </div>
+                </h2>
               </div>
             </div>
 
@@ -150,13 +148,15 @@
       <p style="color: white">Copyright © 2023 Website Testing</p>
     </footer>
 
-    <div class="loader-wrapper">
-      <span class="loader"><span class="loader-inner"></span></span>
+    <div class="container">
+      <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+      </div>
     </div>
 
     <script>
       $(window).on("load", function () {
-        $(".loader-wrapper").fadeOut("slow");
+        $(".loader-wrapper").fadeOut(800);
       });
     </script>
 

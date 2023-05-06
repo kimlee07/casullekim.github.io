@@ -1,13 +1,7 @@
 
 
 
-.front-page {
-    height: auto;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-  }
+
 
 .profile-pic {
     border-radius: 150px;
@@ -26,6 +20,8 @@
     
  
   }
+
+  
 
   
 .front-text {
