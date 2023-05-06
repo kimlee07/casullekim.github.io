@@ -17,13 +17,17 @@
     object-position: top;
   }
   .image {
+    display: flex;
     text-align: center;
+    justify-content: center;
+    align-items: center;
     margin: 10px;
     padding: 10px;
     
  
   }
 
+  
 .front-text {
     text-align: center;
     margin: 10px;
