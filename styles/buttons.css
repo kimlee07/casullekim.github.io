@@ -1,0 +1,81 @@
+
+
+
+
+.apps{
+  margin: 10px;
+  padding: 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.fbalign {
+  text-align: right;
+  margin: 1px;
+  padding: 1px;
+}
+
+.ytalign {
+  text-align: left;
+
+  margin: 1px;
+
+  padding: 1px;
+}
+
+
+
+
+.facebook {
+    background-color: transparent;
+    height: 70px;
+    width: 70px;
+    padding: 0px;
+    
+    overflow: clip;
+    transition: margin 0.2s ease-in-out;
+    cursor: pointer;
+    vertical-align: top;
+    border-color: transparent;
+
+  }
+
+  .fb{
+    height: 100%;
+    width: 100%;
+  }
+
+  .facebook:hover {
+    border-color: transparent;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+    transform: translateY(-10px);
+  }
+
+  .youtube1:hover {
+    border-color: transparent;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+    transform: translateY(-10px);
+  }
+
+  .youtube1 {
+    background-color: transparent;
+    height: 80px;
+    width: 80px;
+   
+    border-radius: 10px;
+
+    border: none;
+
+    font-size: 25px;
+    margin-top: 3px;
+    transition: margin 0.2s ease-in-out;
+    cursor: pointer;
+  }
+
+  .yt{
+    height: 100%;
+    width: 100%;
+  }
+
+  
