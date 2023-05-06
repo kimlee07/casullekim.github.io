@@ -1,8 +1,9 @@
 header {
     display: inline-block;
-    background: black;
+    background: rgb(7, 25, 36);
     position: fixed;
     top: 0;
+    z-index: 999;
     width: 100%;
 
   }
